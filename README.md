@@ -5,8 +5,8 @@ The two primary frameworks we’re working right now are *Node.JS* (back-end) an
 Click on the folder above that corresponds to the framework you want to learn.  Read the README document in the folder first and follow the steps to success.   
 
 ```
-Prior to learning Node or React you need a familiarity with Javascript.  
-Please navigate to the Javascript folder if you're unfamiliar.  
+Prior to learning Node or React you need a basic understanding of Javascript.
+If you do not please begin with the Javascript resources.
 ```
 
 What would you like to learn?
