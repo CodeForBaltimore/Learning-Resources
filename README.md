@@ -6,19 +6,18 @@ The two primary frameworks we are working with right now are *Node.JS* (back-end
 
 Click on the folder above that corresponds to the framework you want to learn.  Read the README document in the folder first and follow the steps to success.
 
-```
-Prior to learning Node or React you need a basic understanding of Javascript.
+
+**Prior to learning Node or React you need a basic understanding of Javascript.
 If you do not have JavaScript experience, you may want to begin with the JavaScript resources.
-If you do not have any coding experience, or have not used Git, you may want to start in the Learn to Computer folder.
-```
+If you do not have any coding experience, or have not used Git, you may want to start in the Learn to Computer section.**
 
 ## Let's Get Started
-### [Learn To Computer](./LearnToComputer)
+### [Learn to Computer](./LearnToComputer)
 * [Command Line](./LearnToComputer/CommandLine.md)
 * [Git](./LearnToComputer/Git.md)
-### [Learn To Code](./LearnToCode)
+### [Learn to Code](./LearnToCode)
 * [JavaScript](./LearnToCode/JavaScript/JavaScript.md)
-* [Node](./LearnToCode/Node.js/NodeJS.md)
+* [Node.js](./LearnToCode/Node.js/NodeJS.md)
 * [React](./LearnToCode/React/React.md)
 
 
