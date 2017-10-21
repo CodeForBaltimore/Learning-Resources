@@ -4,6 +4,8 @@ The two primary frameworks we’re working right now are *Node.JS* (back-end) an
 
 Click on the folder above that corresponds to the framework you want to learn.  Read the README document in the folder first and follow the steps to success.   
 
-
+Our suggested learning order is:
+1. I Want to Learn JavaScript
+1. Node.js
+1. React.js
  
-
