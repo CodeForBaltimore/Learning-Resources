@@ -6,7 +6,7 @@ Click on the folder above that corresponds to the framework you want to learn.  
 
 ```
 Prior to learning Node or React you need a basic understanding of Javascript.
-If you do not please begin with the Javascript resources.
+If you do not, please begin with the Javascript resources.
 ```
 
 What would you like to learn?
