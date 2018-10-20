@@ -29,7 +29,7 @@ Most users just getting started with Node are best to install the LTS (Long Term
 
 #### Direct Download
 
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install package file.
+Visit the [Downloads](https://nodejs.org/en/download) page of the Node website to download the install package file.
 
 #### Brew Install
 
@@ -43,7 +43,7 @@ brew install node@8
 
 #### Direct Download
 
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install msi file.
+Visit the [Downloads](https://nodejs.org/en/download) page of the Node website to download the install msi file.
 
 #### Chocolatey Install
 
@@ -59,7 +59,7 @@ Visit the [Installing Node.js via package manager](https://nodejs.org/en/downloa
 
 ## Beginners
 
-All of these tutorials are going to expect a level of understanding of JavaScript.  If you are new to web development, please look at the Learning JavaScript section first.
+All of these tutorials are going to expect a level of understanding of JavaScript.  If you are new to web development, please look at the [Learning JavaScript](../JavaScript/JavaScript.md) section first.
 
 All of these resources are free and give you a great introduction to Node in a try before you buy setting.
 
@@ -87,7 +87,7 @@ The best place to learn is at the root.  If you are developing in Node, having t
 
 This section is for those that are looking to move to the next level in Node development.  Some of these resources are free and some are paid.  You do not have to pay to learn Node, but some of these paid resources are worth the mention.
 
-### [YouTube](https://www.youtube.com)
+### [YouTube](https://www.youtube.com/results?search_query=node+js)
 
 YouTube has a wealth of knowledge both good and bad.  You must look at the date released or you could learn outdated material.  Some providers of great content are (but not limited to):
 
@@ -104,7 +104,7 @@ YouTube has a wealth of knowledge both good and bad.  You must look at the date 
 
 Even though this is titled an introduction to Node, the course goes more in depth than most introduction courses.  A great free resource that starts branching out.
 
-### [Learn Node - by Wes Bos](https://wesbos.com/learn-node/)
+### [Learn Node - by Wes Bos](https://learnnode.com/)
 
 A paid course that is worth the money.  It walks you start to finish through a full stack restaurant application covering topics like authentication, database storage, REST APIs, and more.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
 
