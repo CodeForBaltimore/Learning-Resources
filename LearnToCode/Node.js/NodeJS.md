@@ -87,9 +87,9 @@ The best place to learn is at the root.  If you are developing in Node, having t
 
 This section is for those that are looking to move to the next level in Node development.  Some of these resources are free and some are paid.  You do not have to pay to learn Node, but some of these paid resources are worth the mention.
 
-### [Youtube](https://www.youtube.com)
+### [YouTube](https://www.youtube.com)
 
-Youtube has a wealth of knowledge both good and bad.  You must look at the date released or you could learn outdated material.  Some providers of great content are (but not limited to):
+YouTube has a wealth of knowledge both good and bad.  You must look at the date released or you could learn outdated material.  Some providers of great content are (but not limited to):
 
 * Programming with Mosh
 * Traversy Media
@@ -120,5 +120,9 @@ There are several online training academies on the market and all of them offer 
 
 ## Other Resources
 
-As you learn more about Node you will become more 
+As you learn more about Node you will become more aware of the surrounding ecosystems.  For more information you can look into specific stacks that include Node.  Some of the most popular are:
+
+* MEAN - **M**ongo, **E**xpress, **A**ngular, and **N**ode
+* MERN - **M**ongo, **E**xpress, **R**eact, and **N**ode
+* NERP - **N**ode, **E**xpress, **R**eact, and **P**ostgreSQL
 
