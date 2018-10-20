@@ -12,7 +12,7 @@ Use the guide below to navigate to the subject you would like to learn about.  P
 * [Command Line](./LearnToComputer/CommandLine.md)
 * [Git](./LearnToComputer/Git.md) (coming soon)
 ### [Learn to Code](./LearnToCode)
-* [JavaScript](./LearnToCode/JavaScript/JavaScript.md) (coming soon)
+* [JavaScript](./LearnToCode/JavaScript/JavaScript.md)
 * [Node.js](./LearnToCode/Node.js/NodeJS.md) (coming soon)
 * [React](./LearnToCode/React/React.md)
 
