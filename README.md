@@ -10,7 +10,7 @@ Use the guide below to navigate to the subject you would like to learn about.  P
 ## Let's Get Started
 ### [Learn to Computer](./LearnToComputer)
 * [Command Line](./LearnToComputer/CommandLine.md)
-* [Git](./LearnToComputer/Git.md) (coming soon)
+* [Git](./LearnToComputer/Git.md)
 ### [Learn to Code](./LearnToCode)
 * [JavaScript](./LearnToCode/JavaScript/JavaScript.md) (coming soon)
 * [Node.js](./LearnToCode/Node.js/NodeJS.md) (coming soon)
