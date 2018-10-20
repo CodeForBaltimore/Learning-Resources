@@ -18,12 +18,12 @@ JavaScript does not require a specific installation to start using it outside of
 
 When you install a web browser, it comes with a JavaScript runtime installed.  Some of the most popular web browsers are:
 
-* Chrome / Chromium - MacOS, Windows, Linux, iOS, Android
-* Firefox - MacOS, Windows, Linux, iOS, Android
-* Opera - MacOS, Windows, Linux, iOS, Android
-* Brave - MacOS, Windows, Linux, iOS, Android
-* Safari / Mobile Safari - MacOS, iOS
-* Edge / Internet Explorer - Windows
+* [Chrome](https://www.google.com/chrome/) / [Chromium](http://www.chromium.org/) - MacOS, Windows, Linux, iOS, Android
+* [Firefox](https://www.mozilla.org/en-US/firefox/) - MacOS, Windows, Linux, iOS, Android
+* [Opera](https://www.opera.com/) - MacOS, Windows, Linux, iOS, Android
+* [Brave](https://brave.com/) - MacOS, Windows, Linux, iOS, Android
+* [Safari](https://www.apple.com/safari/) / Mobile Safari - MacOS, iOS
+* [Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) / Internet Explorer - Windows
 
 ### Web Based 
 
@@ -37,7 +37,7 @@ Over the past few years, online development environments have exploded.  You can
 
 ### Local Installation
 
-For a local installation you will need to install a code editor and Node.js.  Visit the [Learning Node](../Node.js/NodeJS.md) for installation instructions.  Some of the most common code editors are:
+For a local installation you will need to install a code editor and Node.js.  Visit the [Learning Node](../Node.js/NodeJS.md) page for installation instructions.  Some of the most common code editors are:
 
 * [Visual Studio Code (aka VSCode)](https://code.visualstudio.com/) - MacOS, Windows, Linux
 * [Sublime Text](https://www.sublimetext.com/) - MacOS, Windows, Linux
@@ -48,7 +48,7 @@ For a local installation you will need to install a code editor and Node.js.  Vi
 
 ## Beginners
 
-There is a wealth of knowledge on the internet for Learning JavaScript.  The resources below only scratch the surface and are intended to get someone started that doesn't know where to begin.  This is not a comprehensive list by any means, nor should it seen as requirements.  Try each and see which one or ones, work well.  Whether just learning web development or you are already skilled with HTML and CSS, these resources will provide a direction.
+There is a wealth of knowledge on the internet for learning JavaScript.  The resources below only scratch the surface and are intended to get someone started that doesn't know where to begin.  This is not a comprehensive list by any means, nor should it be seen as requirements.  Try each and see which one or ones, work well.  Whether just learning web development or you are already skilled with HTML and CSS, these resources will provide a direction.
 
 ### [freeCodeCamp](https://www.freecodecamp.org)
 
@@ -68,11 +68,15 @@ Next to Stack Overflow, probably the second most used resource on the web about 
 
 ### [Learn JS](https://www.learn-js.org/)
 
-The step-by-step instruction and on page code and console make this a great learning experience for anyone starting with JavaScript.  Currently under construction, but the basics principle sections are up and running.
+The step-by-step instruction and the on page code and console make this a great learning experience for anyone starting with JavaScript.  Currently under construction, but the basics principle sections are up and running.
 
 ## Advanced Learners
 
 This section is for those that are looking to move to the next level in JavaScript development.  Some of these resources are free and some are paid.  You do not have to pay to learn JavaScript, but some of these paid resources are worth the mention.
+
+### [JavaScript 30 by Wes Bos](https://javascript30.com/)
+
+A great and free resource that helps you move from tutorials to real world examples.  Laid out in a 30 day program to do one every day.  If you were having issues with array methods, this course is great for practical practice.  
 
 ### [YouTube](https://www.youtube.com/results?search_query=javascript)
 
@@ -89,15 +93,15 @@ YouTube has a wealth of knowledge both good and bad.  You must look at the date 
 
 ### [Node School](https://nodeschool.io/)
 
-Start with the javascripting course then take a deeper dive into JavaScript.  A good start would but Count to 6 for ES6, then look for the courses on Promises, Async, Javascript Best Practices, and many more.
+Start with the javascripting course then take a deeper dive.  A good start would be Count to 6 for ES6, then look for the courses on Promises, Async, Javascript Best Practices, and many more.
 
 ### [The Modern JavaScript Tutorial](https://javascript.info/)
 
-A great structured approach to JavaScript.  Easy to stop and start to run at your own pace.  The course has recently been rewritten to cover the latest advancements in JavaScript.  Parts 2 and 3 start to get into more advanced topics.
+A great structured approach to JavaScript.  Easy to stop and start and learn at your own pace.  The course has recently been rewritten to cover the latest advancements in JavaScript.  Parts 2 and 3 start to get into more advanced topics.
 
-### [ES6 for Everyone - by Wes Bos](https://es6.io/)
+### [ES6 for Everyone by Wes Bos](https://es6.io/)
 
-A paid course that is worth the money.  It walks you start to finish through a full stack restaurant application covering topics like authentication, database storage, REST APIs, and more.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
+A paid course that is worth the money.  It has sections for each of the functionality upgrades and full explanations of the examples.  It was recently updated to include examples for Async/Await and other ES7/ES8 upgrades.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
 
 ### Online Training Academies
 
@@ -111,7 +115,7 @@ There are several online training academies on the market and all of them offer 
 
 ## Frameworks
 
-Once you feel proficient with JavaScript you can start looking at frameworks to expand your capabilities.  Common JavaScript frameworks are:
+Once you feel proficient with the JavaScript language you can start looking at frameworks to expand your capabilities.  Common JavaScript frameworks are:
 
 ### Front-End Frameworks
 
@@ -126,7 +130,7 @@ Once you feel proficient with JavaScript you can start looking at frameworks to 
 
 ## Other Resources
 
-JavaScript is everywhere on the web now.  The learning possibilities and directions are endless.  Here are some other resources that may be interesting.
+JavaScript is everywhere on the web now.  The learning possibilities and directions are endless.  Here are some other resources that may be interesting:
 
 * [Babel](https://babeljs.io/)
 * [Electron](https://electronjs.org/)
