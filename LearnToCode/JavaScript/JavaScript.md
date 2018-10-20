@@ -74,7 +74,7 @@ The step-by-step instruction and on page code and console make this a great lear
 
 This section is for those that are looking to move to the next level in JavaScript development.  Some of these resources are free and some are paid.  You do not have to pay to learn JavaScript, but some of these paid resources are worth the mention.
 
-### [YouTube](https://www.youtube.com)
+### [YouTube](https://www.youtube.com/results?search_query=javascript)
 
 YouTube has a wealth of knowledge both good and bad.  You must look at the date released or you could learn outdated material.  Some providers of great content are (but not limited to):
 
@@ -128,6 +128,7 @@ Once you feel proficient with JavaScript you can start looking at frameworks to 
 
 JavaScript is everywhere on the web now.  The learning possibilities and directions are endless.  Here are some other resources that may be interesting.
 
+* [Babel](https://babeljs.io/)
 * [Electron](https://electronjs.org/)
 * [NextJS](https://nextjs.org/)
 * [GatsbyJS](https://www.gatsbyjs.org/)
