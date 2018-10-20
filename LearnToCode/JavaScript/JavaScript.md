@@ -5,59 +5,20 @@
 Node.js (commonly referred to as Node) is a JavaScript Runtime built on Chrome's V8 JavaScript engine.  More information can be found at the official [Node.js website](https://nodejs.org).  Below is an example of a Node.js "Hello World" from the about page.
 
 ```js
-const http = require('http');
-
-const hostname = '127.0.0.1';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+alert("Hello World");
 ```
 
-## Installing Node
+## Installing JavaScript
 
-Installing Node is straight forward in most operating systems.  Installing Node will also install the NPM package manager as well.  NPM is used to install packages that run in your projects on Node like React, Angular, Vue, Express, and many more.
+### Web browsers
 
-Most users just getting started with Node are best to install the LTS (Long Term Support) version of Node.  As you gain proficiency, installing Latest versions or using Node Version Manager (NVM) will provide more options.
+### Node locally
 
-### MacOS
+### codepen
 
-#### Direct Download
+### codesandbox
 
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install package file.
-
-#### Brew Install
-
-From the command line in Terminal:
-
-```
-brew install node@8
-```
-
-### Windows
-
-#### Direct Download
-
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install msi file.
-
-#### Chocolatey Install
-
-From the command line in CMD or PowerShell:
-
-```
-C:\> choco install nodejs-lts
-```
-
-### Linux
-
-Visit the [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager/) page for instructions for your distribution.  
+### jsfiddle
 
 ## Beginners
 
