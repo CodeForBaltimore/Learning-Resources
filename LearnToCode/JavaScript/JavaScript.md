@@ -1,8 +1,10 @@
 # Javascript
 
-# Learning Node.js
+JavaScript is an interpreted prototype-based, weakly typed programming language that supports event-driven, functional and object-oriented programming paradigms.  A common misconception is that JavaScript is a based from the Java programming language but that is not true.  **Java is to JavaScript as Ham is to Hamster.**
 
-Node.js (commonly referred to as Node) is a JavaScript Runtime built on Chrome's V8 JavaScript engine.  More information can be found at the official [Node.js website](https://nodejs.org).  Below is an example of a Node.js "Hello World" from the about page.
+JavaScript is standardized by the ECMA (European Computer Manufacturers Association) and thereby officially named ECMAScript or ES.  ECMA continues to release functionality for JavaScript by major version numbers and more recently by years starting with ES6/ES2015.  ES6 marked a major functionality expansion in JavaScript.  ES6 is sometimes used to describe everything including and after ES6, including ES7/2016, ES8/2017, etc...  A new label of ES.Next is used to describe the latest additions to JavaScript.
+
+Below is "Hello World" example that you can run right in your browser's developer tools console.
 
 ```js
 alert("Hello World");
@@ -10,45 +12,67 @@ alert("Hello World");
 
 ## Installing JavaScript
 
-### Web browsers
+JavaScript does not require a specific installation to start using it outside of a web browser.  
 
-### Node locally
+### Web Browsers
 
-### codepen
+When you install a web browser, it comes with a JavaScript runtime installed.  Some of the most popular web browsers are:
 
-### codesandbox
+* Chrome / Chromium - MacOS, Windows, Linux, iOS, Android
+* Firefox - MacOS, Windows, Linux, iOS, Android
+* Opera - MacOS, Windows, Linux, iOS, Android
+* Brave - MacOS, Windows, Linux, iOS, Android
+* Safari / Mobile Safari - MacOS, iOS
+* Edge / Internet Explorer - Windows
 
-### jsfiddle
+### Web Based 
+
+Over the past few years, online development environments have exploded.  You can program javascript in these environments without the need to setup anything locally on your computer.  Some of them have the ability to import frameworks as well and even CodeSandbox has the option to use Visual Studio Code in the browser.  Here is a list of some of the popular options:
+
+* [Codepen](https://codepen.io/)
+* [JSFiddle](https://jsfiddle.net/)
+* [REPL>it](https://repl.it/)
+* [CodeSandbox](https://codesandbox.io/)
+* [Cloud9 by AWS](https://c9.io/)
+
+### Local Installation
+
+For a local installation you will need to install a code editor and Node.js.  Visit the [Learning Node](../Node.js/NodeJS.md) for installation instructions.  Some of the most common code editors are:
+
+* [Visual Studio Code (aka VSCode)](https://code.visualstudio.com/) - MacOS, Windows, Linux
+* [Sublime Text](https://www.sublimetext.com/) - MacOS, Windows, Linux
+* [Atom](https://atom.io/) - MacOS, Windows, Linux
+* [Brackets](http://brackets.io/) - MacOS, Windows, Linux
+
+*_There are plenty of options for code / text editors, but some are OS specific.  The options above are specifically available on MacOS, Windows, and Linux_*
 
 ## Beginners
 
-All of these tutorials are going to expect a level of understanding of JavaScript.  If you are new to web development, please look at the Learning JavaScript section first.
-
-All of these resources are free and give you a great introduction to Node in a try before you buy setting.
-
-### [Node School](https://nodeschool.io)
-
-One of the best beginner resources on the web to get started with Javascript & Node programming.  Look for the LearnYouNode course to get started.
-
-### [w3schools.com](https://www.w3schools.com/nodejs/)
-
-One of the best beginner resources for web development as a whole.  They have a great tutorial to get you familiar with Node among many other things.
+There is a wealth of knowledge on the internet for Learning JavaScript.  The resources below only scratch the surface and are intended to get someone started that doesn't know where to begin.  This is not a comprehensive list by any means, nor should it seen as requirements.  Try each and see which one or ones, work well.  Whether just learning web development or you are already skilled with HTML and CSS, these resources will provide a direction.
 
 ### [freeCodeCamp](https://www.freecodecamp.org)
 
-A free online web development bootcamp.  Their latest curriculum has rolled out this year and includes Node and Express tutorials and projects.
+A free online web development bootcamp.  An amazing resource with a thriving community that will start you on your path to learning web development as a whole.  If you are familiar with HTML and CSS, the beginning parts of the curriculum will be a refresher.
 
-### [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+### [How To Code in JavaScript by Digital Ocean](https://www.digitalocean.com/community/tutorial_series/how-to-code-in-javascript)
 
-Next to Stack Overflow, probably the second most used resource on the web about the web.  This a great introduction to Node and it's most used framework, Express.
+An absolute beginner based collection of JavaScript tutorials.  This series is provided by Digital Ocean, who provides virtual private servers.
 
-### [Node Documentation](https://nodejs.org/en/docs/)
+### [w3schools.com](https://www.w3schools.com/js/)
 
-The best place to learn is at the root.  If you are developing in Node, having the documentation bookmarked is a must have.
+One of the best beginner resources for web development as a whole.  They have a great tutorial to get you familiar with JavaScript among many other things.
+
+### [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+Next to Stack Overflow, probably the second most used resource on the web about the web.  This a great introduction to JavaScript. Also many consider MDN to be the best documentation for JS.
+
+### [Learn JS](https://www.learn-js.org/)
+
+The step-by-step instruction and on page code and console make this a great learning experience for anyone starting with JavaScript.  Currently under construction, but the basics principle sections are up and running.
 
 ## Advanced Learners
 
-This section is for those that are looking to move to the next level in Node development.  Some of these resources are free and some are paid.  You do not have to pay to learn Node, but some of these paid resources are worth the mention.
+This section is for those that are looking to move to the next level in JavaScript development.  Some of these resources are free and some are paid.  You do not have to pay to learn JavaScript, but some of these paid resources are worth the mention.
 
 ### [YouTube](https://www.youtube.com)
 
@@ -56,18 +80,22 @@ YouTube has a wealth of knowledge both good and bad.  You must look at the date 
 
 * Programming with Mosh
 * Traversy Media
-* freeCodeCamp
+* freeCodeCamp (especially Beau teaches JavaScript)
 * Derek Banas
 * The Net Ninja
 * LevelUpTuts
 * Wes Bos
 * LearnCode.academy
 
-### [egghead.io Introduction to Node](https://egghead.io/courses/introduction-to-node-the-fundamentals)
+### [Node School](https://nodeschool.io/)
 
-Even though this is titled an introduction to Node, the course goes more in depth than most introduction courses.  A great free resource that starts branching out.
+Start with the javascripting course then take a deeper dive into JavaScript.  A good start would but Count to 6 for ES6, then look for the courses on Promises, Async, Javascript Best Practices, and many more.
 
-### [Learn Node - by Wes Bos](https://wesbos.com/learn-node/)
+### [The Modern JavaScript Tutorial](https://javascript.info/)
+
+A great structured approach to JavaScript.  Easy to stop and start to run at your own pace.  The course has recently been rewritten to cover the latest advancements in JavaScript.  Parts 2 and 3 start to get into more advanced topics.
+
+### [ES6 for Everyone - by Wes Bos](https://es6.io/)
 
 A paid course that is worth the money.  It walks you start to finish through a full stack restaurant application covering topics like authentication, database storage, REST APIs, and more.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
 
@@ -81,11 +109,27 @@ There are several online training academies on the market and all of them offer 
 * [Codecademy](https://www.codecademy.com/)
 * [Udemy](https://www.udemy.com/)
 
+## Frameworks
+
+Once you feel proficient with JavaScript you can start looking at frameworks to expand your capabilities.  Common JavaScript frameworks are:
+
+### Front-End Frameworks
+
+* [React](https://reactjs.org/)
+* [Angular](https://angular.io/)
+* [Vue](https://vuejs.org/)
+
+### Back-End Frameworks
+
+* [Express](https://expressjs.com/)
+* [Meteor](https://www.meteor.com/)
+
 ## Other Resources
 
-As you learn more about Node you will become more aware of the surrounding ecosystems.  For more information you can look into specific stacks that include Node.  Some of the most popular are:
+JavaScript is everywhere on the web now.  The learning possibilities and directions are endless.  Here are some other resources that may be interesting.
 
-* MEAN - **M**ongo, **E**xpress, **A**ngular, and **N**ode
-* MERN - **M**ongo, **E**xpress, **R**eact, and **N**ode
-* NERP - **N**ode, **E**xpress, **R**eact, and **P**ostgreSQL
-
+* [Electron](https://electronjs.org/)
+* [NextJS](https://nextjs.org/)
+* [GatsbyJS](https://www.gatsbyjs.org/)
+* [JAMStack](https://jamstack.org/)
+* [JavaScript for WordPress](https://javascriptforwp.com/)
