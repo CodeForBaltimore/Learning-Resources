@@ -100,17 +100,17 @@ YouTube has a wealth of knowledge both good and bad.  You must look at the date 
 * Wes Bos
 * LearnCode.academy
 
-### [egghead.io Introduction to Node](https://egghead.io/courses/introduction-to-node-the-fundamentals)
+### [egghead.io - Introduction to Node](https://egghead.io/courses/introduction-to-node-the-fundamentals)
 
-Even though this is titled an introduction to Node, the course goes more in depth than most introduction courses.  A great free resource that starts branching out.
+Even though this is titled as an introduction to Node, the course goes more in depth than most.  A great free resource that starts branching out.
 
-### [Learn Node - by Wes Bos](https://learnnode.com/)
+### [Learn Node by Wes Bos](https://learnnode.com/)
 
 A paid course that is worth the money.  It walks you start to finish through a full stack restaurant application covering topics like authentication, database storage, REST APIs, and more.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
 
 ### Online Training Academies
 
-There are several online training academies on the market and all of them offer a trial.  Try them all to see which ones you like or if it's not for you.  Here are some of the most popular:
+There are several paid online training academies on the market and all of them offer a trial.  Try them all to see which ones you like or if it's not for you.  Here are some of the most popular:
 
 * [PluralSight](https://www.pluralsight.com/)
 * [Lynda / LinkedIn Learning](https://www.lynda.com/)
