@@ -1,130 +1,113 @@
 # Learning Git
 
-# Learning Node.js
+Git is a software version control system that was created by Linus Torvalds, the creator of the Linux kernel.  Git can track changes in any text based files and record adding and deleting of binary based files.  Because of Git's ease of use and versatility, today it is used to track much more than source code.  One of the best ways to learn git, is to use git with every project.  
 
-Node.js (commonly referred to as Node) is a JavaScript Runtime built on Chrome's V8 JavaScript engine.  More information can be found at the official [Node.js website](https://nodejs.org).  Below is an example of a Node.js "Hello World" from the about page.
+You begin tracking a project by initializing a repository (commonly referred to as a repo) in the root directory of a project.  The following shows a simple example of creating a sample project and initializing a Git repository.
 
-```js
-const http = require('http');
-
-const hostname = '127.0.0.1';
-const port = 3000;
-
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
-
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
+```
+mkdir sample_project
+cd sample_project
+echo "# Sample Project Readme" > README.md
+git init
+git add README.md
+git commit -m "initial commit"
 ```
 
-## Installing Node
+## Installing Git
 
-Installing Node is straight forward in most operating systems.  Installing Node will also install the NPM package manager as well.  NPM is used to install packages that run in your projects on Node like React, Angular, Vue, Express, and many more.
-
-Most users just getting started with Node are best to install the LTS (Long Term Support) version of Node.  As you gain proficiency, installing Latest versions or using Node Version Manager (NVM) will provide more options.
+Installing Git on any system is fairly straight forward.  You can use your package manager or directly download and install from the Git website
 
 ### MacOS
 
 #### Direct Download
 
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install package file.
+Visit the [Downloads](https://git-scm.com/downloads) page of the Git website to download the install dmg file.
 
 #### Brew Install
 
 From the command line in Terminal:
 
 ```
-brew install node@8
+brew install git
 ```
 
 ### Windows
 
 #### Direct Download
 
-Visit the [Downloads](https://nodejs.org/en/downloads) page of the Node website to download the install msi file.
+Visit the [Downloads](https://git-scm.com/downloads) page of the Git website to download the install exe file.
 
 #### Chocolatey Install
 
 From the command line in CMD or PowerShell:
 
 ```
-C:\> choco install nodejs-lts
+C:\> choco install git
 ```
 
 ### Linux
 
-Visit the [Installing Node.js via package manager](https://nodejs.org/en/download/package-manager/) page for instructions for your distribution.  
+Visit the [Download for Linux and Unix](https://git-scm.com/download/linux) page for instructions for your distribution.  
 
-## Beginners
+## Getting Started Using Git
 
-All of these tutorials are going to expect a level of understanding of JavaScript.  If you are new to web development, please look at the Learning JavaScript section first.
-
-All of these resources are free and give you a great introduction to Node in a try before you buy setting.
+Git has many online resources to get you starting using Git for your projects.  Again, the best way to learn Git, is to use it with every project.  The following resources will get you started using Git:
 
 ### [Node School](https://nodeschool.io)
 
-One of the best beginner resources on the web to get started with Javascript & Node programming.  Look for the LearnYouNode course to get started.
+One of the best beginner resources on the web to get started with Javascript & Node programming, but provides other courses that support tooling like Git.  Look for the git-it course to get started.
 
-### [w3schools.com](https://www.w3schools.com/nodejs/)
+### [Learn Git Branching](https://learngitbranching.js.org/)
 
-One of the best beginner resources for web development as a whole.  They have a great tutorial to get you familiar with Node among many other things.
+An online interactive site that teaches you Git commands and also gives you an environment to try Git commands.
 
-### [freeCodeCamp](https://www.freecodecamp.org)
+### [Git Documentation](https://git-scm.com/doc)
 
-A free online web development bootcamp.  Their latest curriculum has rolled out this year and includes Node and Express tutorials and projects.
+Git provides step-by-step instructions on getting up and running with Git as well as their own instructional videos.
 
-### [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)
+### [YouTube](https://www.youtube.com/results?search_query=git)
 
-Next to Stack Overflow, probably the second most used resource on the web about the web.  This a great introduction to Node and it's most used framework, Express.
+YouTube has a ton of videos on Git.  Git does not change much so your don't have to worry about watching a video a year or two old.  Git does operate differently between MacOS/Linux/Unix and Windows though.  Be sure to look for Windows specific Git videos when searching.
 
-### [Node Documentation](https://nodejs.org/en/docs/)
+## Git Online 
 
-The best place to learn is at the root.  If you are developing in Node, having the documentation bookmarked is a must have.
+Git repos are stored locally on your computer.  As a way to access them remotely or to easily move between computers, there are many online repo sites.  The most common are:
 
-## Advanced Learners
+### [Github](https://github.com)
 
-This section is for those that are looking to move to the next level in Node development.  Some of these resources are free and some are paid.  You do not have to pay to learn Node, but some of these paid resources are worth the mention.
+Github is arguably the most widely used online repo and supports free public repos.  Private repos are reserved for pay accounts.  Github is simple and fast.
 
-### [YouTube](https://www.youtube.com)
+### [Gitlab](https://about.gitlab.com/)
 
-YouTube has a wealth of knowledge both good and bad.  You must look at the date released or you could learn outdated material.  Some providers of great content are (but not limited to):
+Gitlab offers both public and private online repos for free.  Also Gitlab has rolled out AutoDevOps which handles a lot of the deployment processes for you.  Gitlab is well known for companies hosting their own Gitlab installations.
 
-* Programming with Mosh
-* Traversy Media
-* freeCodeCamp
-* Derek Banas
-* The Net Ninja
-* LevelUpTuts
-* Wes Bos
-* LearnCode.academy
+### [BitBucket](https://bitbucket.org/)
 
-### [egghead.io Introduction to Node](https://egghead.io/courses/introduction-to-node-the-fundamentals)
-
-Even though this is titled an introduction to Node, the course goes more in depth than most introduction courses.  A great free resource that starts branching out.
-
-### [Learn Node - by Wes Bos](https://wesbos.com/learn-node/)
-
-A paid course that is worth the money.  It walks you start to finish through a full stack restaurant application covering topics like authentication, database storage, REST APIs, and more.  Follow Wes on Twitter and he usually gives out discount codes every couple of months.
-
-### Online Training Academies
-
-There are several online training academies on the market and all of them offer a trial.  Try them all to see which ones you like or if it's not for you.  Here are some of the most popular:
-
-* [PluralSight](https://www.pluralsight.com/)
-* [Lynda / LinkedIn Learning](https://www.lynda.com/)
-* [Team Treehouse](https://teamtreehouse.com/)
-* [Codecademy](https://www.codecademy.com/)
-* [Udemy](https://www.udemy.com/)
+BitBucket offers most of the same features as Gitlab with free public and private repos and integrated Continuous Deployment.  BitBucket, being owned by Atlassian, integrates great with Trello and Jira.
 
 ## Other Resources
 
-As you learn more about Node you will become more aware of the surrounding ecosystems.  For more information you can look into specific stacks that include Node.  Some of the most popular are:
+### Graphical User Interface (GUI) Git
 
-* MEAN - **M**ongo, **E**xpress, **A**ngular, and **N**ode
-* MERN - **M**ongo, **E**xpress, **R**eact, and **N**ode
-* NERP - **N**ode, **E**xpress, **R**eact, and **P**ostgreSQL
+Learning Git on the command line is the best way to understand it.  Once you have a solid understanding, you may wish to use a graphical program to work with Git.  There are several GUI Git applications on the [Git GUI Clients](https://git-scm.com/downloads/guis) page.  Some of the more popular options are:
 
+* [GitKraken](https://www.gitkraken.com/)
+* [Tower](https://www.git-tower.com/)
+* [git-cola](https://git-cola.github.io/)
+* [Github Desktop](https://desktop.github.com/)
+
+### Git Integration with Code/Text Editors
+
+Now most code/text editors come with Git integration built in.  If your plan is to use Git graphically, then you should factor that integration into your choice of code/text editor and possibly skip one of the Clients above.
+
+### Github Command Line Interface (CLI)
+
+Some may prefer to stay in the command line all the time.  GitHub, GitLab, and BitBucket all have command line interfaces.  Their functionality is not the same between all three, but the links below will give you more information.
+
+* [Hub for GitHub](https://hub.github.com/)
+* [Lab for GitLab](https://www.npmjs.com/package/git-lab-cli)
+* [BB for BitBucket](https://bitbucket.org/zhemao/bitbucket-cli)
+
+### Git Terminal Shell Integration
+
+Git integration into the Terminal Shell provides command line information when you are currently inside a git repo.  Information like the branch name, repo status, uncommited changes, and more are displayed on the command line prompt so you dont have to type `git status` every time.  These integrations are provided for bash, zsh, fish, and PowerShell.  The most common in the MacOS/Linux realm is Robby Russell's [Oh-My-ZSH](https://github.com/robbyrussell/oh-my-zsh).  Windows users are probably familiar with [Posh-git](https://github.com/dahlbyk/posh-git)
