@@ -59,7 +59,7 @@ One of the best beginner resources on the web to get started with Javascript & N
 
 ### [Learn Git Branching](https://learngitbranching.js.org/)
 
-An online interactive site that teaches you Git commands and also gives you an environment to try Git commands.
+An online interactive site that teaches you Git commands and also gives you an environment to try what you are learning.
 
 ### [Git Documentation](https://git-scm.com/doc)
 
@@ -67,29 +67,29 @@ Git provides step-by-step instructions on getting up and running with Git as wel
 
 ### [YouTube](https://www.youtube.com/results?search_query=git)
 
-YouTube has a ton of videos on Git.  Git does not change much so your don't have to worry about watching a video a year or two old.  Git does operate differently between MacOS/Linux/Unix and Windows though.  Be sure to look for Windows specific Git videos when searching.
+YouTube has a ton of videos on Git.  Git does not change much so your don't have to worry about watching a video a year or two old.  Git does operate differently between MacOS/Linux and Windows though.  Be sure to look for Windows specific Git videos when searching.
 
 ## Git Online 
 
 Git repos are stored locally on your computer.  As a way to access them remotely or to easily move between computers, there are many online repo sites.  The most common are:
 
-### [Github](https://github.com)
+### [GitHub](https://github.com)
 
-Github is arguably the most widely used online repo and supports free public repos.  Private repos are reserved for pay accounts.  Github is simple and fast.
+GitHub is arguably the most widely used online repo and supports free public repos.  Private repos are reserved for pay accounts.  GitHub is simple and fast.
 
-### [Gitlab](https://about.gitlab.com/)
+### [GitLab](https://about.gitlab.com/)
 
-Gitlab offers both public and private online repos for free.  Also Gitlab has rolled out AutoDevOps which handles a lot of the deployment processes for you.  Gitlab is well known for companies hosting their own Gitlab installations.
+GitLab offers both public and private online repos for free.  Also GitLab has rolled out AutoDevOps which handles a lot of the deployment processes for you.  GitLab is well known for companies hosting their own GitLab installations.
 
 ### [BitBucket](https://bitbucket.org/)
 
-BitBucket offers most of the same features as Gitlab with free public and private repos and integrated Continuous Deployment.  BitBucket, being owned by Atlassian, integrates great with Trello and Jira.
+BitBucket offers most of the same features as GitLab with free public and private repos and integrated Continuous Deployment.  BitBucket, being owned by Atlassian, integrates great with Trello and Jira.
 
 ## Other Resources
 
 ### Graphical User Interface (GUI) Git
 
-Learning Git on the command line is the best way to understand it.  Once you have a solid understanding, you may wish to use a graphical program to work with Git.  There are several GUI Git applications on the [Git GUI Clients](https://git-scm.com/downloads/guis) page.  Some of the more popular options are:
+Learning Git on the command line is the best way to grasp the concepts.  Once you have a solid understanding, you may wish to use a graphical program to work with Git.  There are several GUI Git applications on the [Git GUI Clients](https://git-scm.com/downloads/guis) page.  Some of the more popular options are:
 
 * [GitKraken](https://www.gitkraken.com/)
 * [Tower](https://www.git-tower.com/)
@@ -98,7 +98,7 @@ Learning Git on the command line is the best way to understand it.  Once you hav
 
 ### Git Integration with Code/Text Editors
 
-Now most code/text editors come with Git integration built in.  If your plan is to use Git graphically, then you should factor that integration into your choice of code/text editor and possibly skip one of the Clients above.
+Now most code/text editors come with Git integration built in.  If your plan is to use Git graphically, then you should factor that integration into your choice of code/text editor and possibly skip one of the clients above.
 
 ### Github Command Line Interface (CLI)
 
